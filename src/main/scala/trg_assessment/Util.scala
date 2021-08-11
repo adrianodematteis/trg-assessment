@@ -31,7 +31,7 @@ object Util {
     .split(" ").map(col)
 
   //outcomes files
-  val outcomesHeader = "crimeId month reportedBy fallsWithin longitude latitude location LSOAcode	LSOAname outcomeType"
+  val outcomesHeader = "crimeId month reportedBy fallsWithin longitude latitude location LSOAcode LSOAname outcomeType"
 
   val outcomesSchema = StructType(
     outcomesHeader
