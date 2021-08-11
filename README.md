@@ -34,7 +34,8 @@ API usage (local machine deployment example)
   curl http://127.0.0.1:61003/trg-assessment/crimes-by-crime-type
 
 Run the application: 
-Run the application as a normal Spark application (client mode)
+- sbt assembly to generate the fat Jar
+- run the application as a normal Spark application (client mode)
 
 
 
