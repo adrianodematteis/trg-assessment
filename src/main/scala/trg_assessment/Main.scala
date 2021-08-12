@@ -22,7 +22,7 @@ object Main extends App with Routes {
   mainLog.info("Asking for a Spark Session ... ")
 
   implicit val spark = SparkSession.builder
-    .master("local")
+//    .master("local")
     .appName("trg-assessment")
     .getOrCreate
 
